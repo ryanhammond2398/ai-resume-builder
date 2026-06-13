@@ -1,7 +1,0 @@
-[build]
-  base = "resume-builder"
-  command = "npm ci && npm run build"
-  publish = "resume-builder/.next"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
